@@ -22,9 +22,9 @@
  * __Alternatively__ if you wanted to use a specific file instead of the last used commit (for example `changes.txt`) you would enter:  
  `git checkout HEAD changes.txt`  
  2. How would you add multiple files at once, you may be asking... Well, Git comes with a solution to that as well!  
- * `git ass file_name_1 file_name_2  
+ * `git add file_name_1 file_name_2`  
  3. But what if you change a line from one of these two files?:  
- * You can reset a file in the staging area by using the command `git reset HEAD file_name_1  
+ * You can reset a file in the staging area by using the command `git reset HEAD file_name_1`  
  This resets the file in the 'box' and removes it from the staging area.  
  * 
  
